@@ -4,10 +4,16 @@
 
 
 <code>
+Crear Base de datos "airport" en mysql.
+//Una vez descargado el proyecto ejecutar la instalacion de dependencias    
 composer install <br>
+//Crear las migracion de las tablas a utilizar.
 php artisan migrate<br>
+//instalar complementos para el login
 npm install && npm run dev<br>
+//insertar datos de tipos y tamaños de aereonaves
 php artisan db:seed --class=tipos_aereonaves<br>
 php artisan db:seed --class=tamanios_aereonaves<br>
+//ejecutar el servidor y registrar un usuario para su uso.
 php artisan serve
 </code>
